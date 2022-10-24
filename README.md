@@ -131,7 +131,7 @@ public class EnergyShield : MonoBehaviour
 
 Но игра где нет конца, и нет возможности проиграть бессмыслена. Поэтому нам нужно ввести "наказание" за то что игрок пропускает яйцо. Через три пропуска игра должна заканчиваться, и игрок начинает сначала.
 
-Для этого нам необходимо :
+### Для этого нам необходимо :
 - получить информацию о том что яйцо уничтожено
 - в главном скрипте игры сделать реакцию на уничтожение яйца
 - уменьшить количество щитов игрока (количество жизней)
@@ -217,7 +217,7 @@ public class DragonPicker : MonoBehaviour
 
 Теперь наша игра выглядит ещё живее, после замены дефолтного скайбокса юнити на горную местность. 
 
-### Дракон очень рад
+## Дракон очень рад
 ![unknown_2022 10 25-00 15_1](https://user-images.githubusercontent.com/100475554/197608092-a1aac669-46d7-4811-b251-410c1301d521.gif)
 
 Теперь перед выкладыванием нашего проета на Яндекс Игры нам стоит прибраться в репозитории. Любой лишний мегабайт может повлиять на опыт пользователя.
@@ -251,7 +251,7 @@ public class DragonPicker : MonoBehaviour
 
 ![image](https://user-images.githubusercontent.com/100475554/197612421-121d141d-5d38-4689-ac7f-ee0b69640220.png) ![image](https://user-images.githubusercontent.com/100475554/197612482-63da9dcb-f152-4c24-96fd-62023c67e5ca.png)
 
-### Результат создание WebGL билда
+## Результат создание WebGL билда
 ![unknown_2022 10 25-01 07_1](https://user-images.githubusercontent.com/100475554/197619454-11c2f29f-0f3c-45a3-95f4-a05dc4a8e020.gif)
 
 Теперь для импорта на Яндекс Игры нам осталось :
@@ -267,7 +267,7 @@ public class DragonPicker : MonoBehaviour
 ![image](https://user-images.githubusercontent.com/100475554/197620618-ea53bf1e-ca26-4fa7-85bb-91c57475a4c3.png)
 ![image](https://user-images.githubusercontent.com/100475554/197620676-4b756ef4-2df5-4e2c-8940-6ae0d505cbe6.png)
 
-Результат на ваших экранах, но так-же вы можете [убедиться в работе черновика сами](https://yandex.ru/games/app/198497?draft=true&lang=ru)
+###Результат на ваших экранах, но так-же вы можете [убедиться в работе черновика сами](https://yandex.ru/games/app/198497?draft=true&lang=ru)
 
 ![unknown_2022 10 25-01 19_2](https://user-images.githubusercontent.com/100475554/197622463-eea66696-c1f1-4698-bb36-904690744caa.gif)
 
@@ -282,4 +282,5 @@ public class DragonPicker : MonoBehaviour
 + подключили плагин Яндекс Игр и залили игру на платформу
 
 [Репозиторий](https://github.com/Sergey8Rybkin/Dragon-Picker)
+
 [Игра](https://yandex.ru/games/app/198497?draft=true&lang=ru)
