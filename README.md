@@ -264,7 +264,6 @@ public class DragonPicker : MonoBehaviour
 
 Результат на ваших экранах, но так-же вы можете [убедиться в работе черновика сами](https://yandex.ru/games/app/198497?draft=true&lang=ru)
 
+![unknown_2022 10 25-01 19_2](https://user-images.githubusercontent.com/100475554/197622463-eea66696-c1f1-4698-bb36-904690744caa.gif)
 
-
-https://user-images.githubusercontent.com/100475554/197621327-986c1979-a890-4999-a304-a80b4509acf1.mp4
-
+## Выводы
