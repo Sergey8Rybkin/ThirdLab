@@ -71,5 +71,45 @@ void Update()
 
 ![image](https://user-images.githubusercontent.com/100475554/197588758-d35c9243-3047-4ecd-b5f1-4466c2fcf120.png) ![image](https://user-images.githubusercontent.com/100475554/197589110-b6de6246-80ab-4684-8dab-8fec71d335ae.png)
 
+Теперь когда мы подключили UI на который мы будем выводить результат пользователя, осталось только реализовать подсчёт его очков, по одному за каждое яйцо. Из важных элементов тут это подключение ** using TMPro; ** для работы с графическими элементами Unity.
+Далее прописываем новую переменную подсчёта и сам скрипт подсчёта очков при каждом колайде яиц со щитом. Конечная версия скрипта щита будет выглядеть так
 
+```c#
+using UnityEngine;
+using TMPro;
+public class EnergyShield : MonoBehaviour
+{
 
+    public TextMeshProUGUI scoreGT;
+    // Start is called before the first frame update
+    void Start()
+    {
+        GameObject scoreGo = GameObject.Find("Score");
+        scoreGT = scoreGo.GetComponent<TextMeshProUGUI>();
+        scoreGT.text = "0";
+    }
+
+    
+    void Update()
+    {
+        Vector3 mousePos2D = Input.mousePosition;
+        mousePos2D.z = -Camera.main.transform.position.z;
+        Vector3 mousePos3D = Camera.main.ScreenToWorldPoint(mousePos2D);
+        Vector3 pos = this.transform.position;
+        pos.x = mousePos3D.x;
+        this.transform.position = pos;
+        }
+
+       
+        private void OnCollisionEnter(Collision coll) {
+            GameObject Collided = coll.gameObject;
+            if (Collided.tag == "DragonEggs") {
+                Destroy(Collided);
+            }
+            int score = int.Parse(scoreGT.text);
+            score += 1;
+            scoreGT.text = score.ToString();
+            }
+            
+}
+```
