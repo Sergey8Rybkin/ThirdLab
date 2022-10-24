@@ -58,9 +58,6 @@ void Update()
             if (Collided.tag == "DragonEggs") {
                 Destroy(Collided);
             }
-            int score = int.Parse(scoreGT.text);
-            score += 1;
-            scoreGT.text = score.ToString();
             }
 ```
 В итоге получаем ловлю объектов. Осталось накрутить очки
@@ -68,3 +65,10 @@ void Update()
 ![unknown_2022 10 24-22 19_1](https://user-images.githubusercontent.com/100475554/197587359-3a1e45c9-65fd-4c54-9772-af22e106789b.gif)
 
 Сначала для подсчёта очков стоит создать первые элементы UserInterface. Для них мы можем использовать **Canvas**.
+Создаём его вместе с текстом. Настраиваем расположение и настройки текста.
+
+![image](https://user-images.githubusercontent.com/100475554/197588873-b34a4c11-f5a1-4fd0-b536-e5b6eaa054b4.png)
+
+![image](https://user-images.githubusercontent.com/100475554/197588758-d35c9243-3047-4ecd-b5f1-4466c2fcf120.png)
+
+
