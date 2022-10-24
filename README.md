@@ -262,4 +262,9 @@ public class DragonPicker : MonoBehaviour
 ![image](https://user-images.githubusercontent.com/100475554/197620618-ea53bf1e-ca26-4fa7-85bb-91c57475a4c3.png)
 ![image](https://user-images.githubusercontent.com/100475554/197620676-4b756ef4-2df5-4e2c-8940-6ae0d505cbe6.png)
 
+Результат на ваших экранах, но так-же вы можете [убедиться в работе черновика сами](https://yandex.ru/games/app/198497?draft=true&lang=ru)
+
+
+
+https://user-images.githubusercontent.com/100475554/197621327-986c1979-a890-4999-a304-a80b4509acf1.mp4
 
