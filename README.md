@@ -113,3 +113,7 @@ public class EnergyShield : MonoBehaviour
             
 }
 ```
+Ура, теперь наш игрок может видеть результат своей игры.
+
+![unknown_2022 10 24-22 38_1](https://user-images.githubusercontent.com/100475554/197590766-1c15af4b-49d3-4f58-80e8-ea73b95bc2a1.gif)
+
