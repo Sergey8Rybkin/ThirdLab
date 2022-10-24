@@ -45,6 +45,22 @@ void Update()
         this.transform.position = pos;
         }
 ```
-# Результат
+Результат
 ![unknown_2022 10 24-22 12_1](https://user-images.githubusercontent.com/100475554/197585955-8158b423-ed71-4a4a-98f8-f6e46c6dd366.gif)
 
+Дальше займёмся тем, чтобы яйца приземлившись не катались на шаре, а поглощались. 
+При колизии с щитом наше яйцо должно пропадать
+
+```c#
+ private void OnCollisionEnter(Collision coll) {
+            GameObject Collided = coll.gameObject;
+            if (Collided.tag == "DragonEggs") {
+                Destroy(Collided);
+            }
+            int score = int.Parse(scoreGT.text);
+            score += 1;
+            scoreGT.text = score.ToString();
+            }
+```
+
+![unknown_2022 10 24-22 19_1](https://user-images.githubusercontent.com/100475554/197587359-3a1e45c9-65fd-4c54-9772-af22e106789b.gif)
