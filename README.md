@@ -7,6 +7,9 @@
 Ссылка на репозиторий с проектом
 https://github.com/Sergey8Rybkin/Dragon-Picker
 
+Ссылка на черновик игры на Яндекс Играх
+https://yandex.ru/games/app/198497?draft=true&lang=ru
+
 Отметка о выполнении заданий:
 
 | Задание | Выполнение | Баллы |
