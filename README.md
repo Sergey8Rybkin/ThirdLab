@@ -246,4 +246,20 @@ public class DragonPicker : MonoBehaviour
 
 ![image](https://user-images.githubusercontent.com/100475554/197612421-121d141d-5d38-4689-ac7f-ee0b69640220.png) ![image](https://user-images.githubusercontent.com/100475554/197612482-63da9dcb-f152-4c24-96fd-62023c67e5ca.png)
 
+### Результат создание WebGL билда
+![unknown_2022 10 25-01 07_1](https://user-images.githubusercontent.com/100475554/197619454-11c2f29f-0f3c-45a3-95f4-a05dc4a8e020.gif)
+
+Теперь для импорта на Яндекс Игры нам осталось :
+1. Загрузить плагин Яндекс Игр в наш проект.
+2. Добавить YandexGame на сцену
+3. Сделать билд со всеми настройками
+4. Заархивировать наш проект
+5. Загрузить его на Яндекс Игры
+
+![image](https://user-images.githubusercontent.com/100475554/197620152-cb86feba-49c8-4447-987d-958c852c4f94.png)
+![image](https://user-images.githubusercontent.com/100475554/197620515-7ecb93fe-08ae-4705-a708-bb4cb3656895.png)
+![image](https://user-images.githubusercontent.com/100475554/197620330-a98f1643-5c67-458d-9cf6-5490f02987b7.png)
+![image](https://user-images.githubusercontent.com/100475554/197620618-ea53bf1e-ca26-4fa7-85bb-91c57475a4c3.png)
+![image](https://user-images.githubusercontent.com/100475554/197620676-4b756ef4-2df5-4e2c-8940-6ae0d505cbe6.png)
+
 
