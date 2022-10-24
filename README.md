@@ -4,9 +4,9 @@
 - Рыбкин Сергей Денисович
 - РИ-300012
 
-[Ссылка на репозиторий с проектом](https://github.com/Sergey8Rybkin/Dragon-Picker)
+[Репозиторий с проектом](https://github.com/Sergey8Rybkin/Dragon-Picker)
 
-[Ссылка на черновик игры на Яндекс Играх](https://yandex.ru/games/app/198497?draft=true&lang=ru)
+[Черновик игры на Яндекс Играх](https://yandex.ru/games/app/198497?draft=true&lang=ru)
 
 Отметка о выполнении заданий:
 
@@ -234,5 +234,16 @@ public class DragonPicker : MonoBehaviour
 ### Получаем красивый чистый раздел с контентом нашей игры
 ![image](https://user-images.githubusercontent.com/100475554/197609995-37f83407-bc24-42ec-9c11-eac1e9756271.png)
 
-**Задание 3.**
+Все изменения добавлены в [Репозиторий с проектом](https://github.com/Sergey8Rybkin/Dragon-Picker)
+
+### Задание 3.
 –	5 Практическая работа «Интеграция игровых сервисов в готовое приложение».
+
+Мы делаем нашу игру под WebGL, поэтому первым делом скачиваем модуль для работы в этом направлении. По загрузке пробуем создать свой первый билд
+1. Добавляем нашу сцену
+2. Настраиваем графику
+3. Настраиваем компрессию
+
+![image](https://user-images.githubusercontent.com/100475554/197612421-121d141d-5d38-4689-ac7f-ee0b69640220.png) ![image](https://user-images.githubusercontent.com/100475554/197612482-63da9dcb-f152-4c24-96fd-62023c67e5ca.png)
+
+
